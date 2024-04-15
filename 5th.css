@@ -1,0 +1,82 @@
+:root{
+    /* --oyin-color:#ff00dd */
+    --rainbow: repeating-linear-gradient(100deg,
+    #2a70a5 10%,
+    #4da52a 15%,
+    #a57a2a 20%,
+    #2a55a5 30%
+    );
+    --ball-color:linear-gradient(#2a55a5,#a57a2a )
+
+    
+}
+
+
+.section-one{
+    width: 300px;
+    height: 300px;
+    /* how to combine two colors together */
+    /* background: linear-gradient(yellow,orange,red); */
+    /* background: repeating-linear-gradient(40deg,yellow,orangered,red); */
+    /* background: repeating-linear-gradient(40deg,yellow,orangered,red); */
+    /* background: radial-gradient(ellipse at left,yellow,orangered,rgb(0, 225, 255)); */
+     background:var(--rainbow);
+     
+    transition: 1s;
+}
+.section-one:hover{
+    /* transform: translate(40px); */
+    /* transform: scale(1.05); */
+    /* transform: rotate(90deg); */
+    /* transform: skew(50deg); */
+    transform: skewY(10deg);
+    border-radius: 5rem;
+}
+h1{
+    background:var(--rainbow);
+    /* animation: stanley 1s infinite; */
+    animation-name: stanley;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes stanley{
+    0%{
+
+
+    /* transform: scaleY(1); */
+    transform: translateX(50px);
+    
+    }
+    50%{
+
+        transform: scaleY(2);
+    }
+}
+.ball{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 100%;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce{
+    0%,20%,50%,80%{
+        transform: translateY(2px)
+    }
+    50%{
+        transform: translateY(-20px)
+    }
+    100%{
+        transform:translateY(-10px)
+    }
+}
+
+
+
+
+
+
+
+
+
+

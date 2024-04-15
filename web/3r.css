@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background: blue;
+}
+.cap{
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cap em{
+    font-style: normal;
+    color: rgb(237, 86, 59);
+    font-weight: 900;
+}
+.cap h2{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 54px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.cap h6{
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.5pxv
+}
+.scroll2 a{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 105%;
+    font-weight: 400;
+    padding: 12px 20px;
+    display: inline-block;
+    background-color: #ed563b;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    transition: all .3s; 
+}

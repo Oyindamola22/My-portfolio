@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-image: url(/asset/dstv-login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#imgg{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    
+
+}
+p{
+    color: #fff;
+    font-family: sans-serif;
+}
+form{ 
+    text-align: center;
+   background-color: transparent;
+   backdrop-filter: blur(5px);
+   width: 400px;
+   height: 700px;
+   margin: auto;
+   margin-top: 60px;
+   font-family: Roboto;
+   position: sticky;
+    
+} 
+#surname{
+    border-radius: 30px;
+    height: 35px;
+    width: 80%;
+    margin: 15px;
+    background-color: rgba(31, 81, 168, 0.8);
+}
+#number{
+    border-radius: 30px;
+    height: 35px;
+    width: 80%;
+    margin: 15x;
+    background-color: rgba(31, 81, 168, 0.8);
+}
+#countries{
+    border-radius: 30px;
+    height:40px;
+    width: 80%;
+    margin: 15px;
+    background-color: rgba(31, 81, 168, 0.8);
+}
+
+ .remember-me{
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+
+}
+
+.submit{
+    border-radius: 20px; 
+    margin: 15px;
+    background-color: rgba(31, 81, 168, 0.8);
+}
+.section4{
+    color: #fff;
+}
+#sb{
+    border-radius: 30px;
+    width: 50%;
+    height: 40px;
+    margin: 15px;
+    background-color: rgba(24, 24, 120, 0.668)
+}
+#sr{
+    border-radius: 30px;
+    width: 50%;
+    height: 40px;
+    color: blue;
+}  
+
+.section3{
+    background-color: rgba(0, 0, 0, 0.54);
+    height: 80px;
+    position: relative;
+    
+}
+.fa-circle-info{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#term{
+    text-decoration: none;
+    color: blue;
+}
+.line-before .line-after{
+    position: absolute;
+    top: 50%;
+    width: 18rem;
+    border-bottom: 2px solid white;
+}
+.line-before{
+    left: 5rem;
+}
+.line-after{
+    right: 4rem;
+}
+#CR{
+ background-color: white;
+ width: 10%;
+ height: 45px;
+ border-radius: 50%;
+ line-height: 50px;
+ text-align: center;
+ font-weight: bold;
+ display: inline-block;   
+}
+#CT{
+    color: blue;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+

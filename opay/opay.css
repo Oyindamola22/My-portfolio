@@ -1,0 +1,132 @@
+#app{
+    overflow: hidden;
+}
+#app, html{
+    height: 100%;
+}
+div{
+    display: block;
+}
+body{
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-container{
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    background: url(/asset/opay.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-container .form-login{
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.form-login{
+    width: 440px;
+    margin-top: 160px!important;
+    height: 435px;
+}
+.title-container{
+    position: relative;
+    padding: 0 45px;
+}
+.title-container .text{
+    font-size: 16px;
+    color:#29303a;
+}
+.logo img{
+    width: 108px;
+    height: 50px;
+    margin-top: 40px;
+    
+}
+.login-container .form-container{
+    padding: 20px 45px;
+    color:#29303a;
+}
+.login-container .form-container .item-tips-container{
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+.login-container .form-container .input-box1{
+    width: 350px;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgba(132, 151, 162, 12);
+    border: 1px solid #1dcf98;
+    background-color: #fff;
+    color: #29303a;
+}
+.login-container .input-box1{
+    height: 48px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.input-box1{
+    margin-bottom: 22px;
+}
+.input1 input{
+    line-height: 40px;
+    position: relative;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    padding-left: 2rem;
+    /* caret-color: #29303a; */
+}
+.tip-text{
+    font-size: 14px;
+    opacity: .7;
+}
+.tip-forgot{
+    font-size: 12px;
+    float: right;
+    color: #1dcf9f;
+    cursor: pointer;
+}
+.g{
+    margin-bottom: 30px;
+    transform: scale(1.155);
+    transform-origin: 0 0;
+}
+.btn{
+    /* opacity: 1; */
+    width: 350px;
+    height: 48px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #1dcf9f;
+    border-color: transparent;
+}
+.input-box1 i{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

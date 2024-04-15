@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(110deg,white,#De0606a4);
+    height: 100vh;
+   
+} 
+
+.dark-mode{
+      height: 100vh;
+      background: linear-gradient(20deg,rgb(170, 158, 158),#050000);
+      color: black;
+}
+
+header{
+    background: #De0606a4;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.bxs-bulb{
+    margin-left: 15rem;
+   font-size: xx-large;
+}
+
+
+.questions{
+    width: 90vw;
+    background: #De0606a4;
+    border-radius: 2rem;
+    margin: 3rem auto;
+    padding: 2rem;
+   
+}
+#question{
+    margin-bottom: 1rem;
+    color: rgb(57, 56, 56);
+}
+.option{
+    color: rgb(57, 56, 56);
+    margin-bottom: 0.6rem;
+    border-radius: 1rem;
+    background: rgba(126, 126, 126, 0.644);
+    width: 15rem;
+    
+}.option:hover{
+    color: #fff;
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+
+}
+#previous{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background: #De0606a4;
+    border: none;
+    color: #fff;
+    margin-right: 2rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+#next{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background: #De0606a4;
+    border: none;
+    color: #fff;
+    margin-left: 2rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+#scoreboard{
+    width: 21rem;
+    background: #fff;
+    padding:2rem;
+    margin: auto;
+    border: 1px solid pink;
+    text-align: center;
+    display: none;
+    margin-top: 10rem;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: #De0606a4;
+    border-radius: 1.5rem;
+    color: #fff;
+    padding: 0.2rem 1.5rem;
+    margin: 0.3rem;
+}
+#answerSheet{
+    width: 21rem;
+    background: #fff;
+    padding:2rem;
+    margin: auto;
+    border: 1px solid pink;
+    text-align: center;
+  
+    display: none;
+    margin-top: 10rem;
+}
+#answerSheet li{
+    text-align: left;
+    font-weight: 500;
+    
+}
+#timerelement{
+    margin-right: 7rem;
+}
+#count{
+    margin-left: 4rem;
+    background-color: white;
+    width: 90px;
+    color: black;
+}

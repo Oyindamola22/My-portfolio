@@ -1,0 +1,139 @@
+ /*.box1{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: relative;
+}
+/* position sticky does the job of both absolute and relative*/
+/*.box2{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+   position: absolute;
+ /*   right: 0; */
+ /*   top: 0
+}
+/* position fixed will not make the icons move no matter  how  you scroll
+but vh can make your page move down */
+/*.input-field{
+    position: relative;
+}
+body{
+    height: 200vh;
+}
+.box3{
+    width: 150px;
+    height: 150px;
+   position: absolute;
+   top: 0;
+   background: pink;
+} */
+.gallery img{
+    height: 400px;
+    width: 400px;
+}
+h1{
+    color: pink;
+    
+}
+h1:hover{
+    color: red;
+    font-size: 50px;
+    text-decoration: line-through;
+}
+h2{
+    cursor: pointer;
+}
+h2:hover{
+    color: #fff;
+}
+a:active{
+    font-weight: 900;
+    color: aqua;
+}
+form input{
+    outline:none;
+}
+form input:focus{
+    border:2px solid red;
+}
+li{
+    list-style: none;
+}
+
+li:nth-last-child(even){
+    background-color: blueviolet;
+}
+h4{
+    font-size: 5rem;
+    color: rgb(63, 184, 205);
+    display: inline;
+    position: relative;
+
+}
+h4::before{
+    position: absolute;
+    content:"";
+    background-color: rgb(63, 184, 205);
+    width:100%;
+    height: 5px;
+}
+h4::after{
+    position: absolute;
+    content:"";
+    background-color: rgb(63, 184, 205);
+    width:100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+}
+
+h5{
+    font-size: 5rem;
+    color: purple;
+}
+h5::before{
+    content:"*"
+}
+h5::after{
+    content:"*"
+}
+h6{
+    font-size: 5rem;
+    color: peru;
+    display: inline;
+    position: relative;
+
+}
+h6::before{
+    position: absolute;
+    content:"";
+    background-color: peru;
+    width:100%;
+    height: 5px;
+}
+h6::after{
+    position: absolute;
+    content:"";
+    background-color: peru;
+    width:100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

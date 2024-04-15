@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    background: #ffefd5;
+}
+section{
+    padding: 2rem 9%;
+}
+header{
+    background: #fff;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+}
+.header{
+    display: flex;
+    padding: 14px 0;
+    align-items: center;
+    justify-content: space-between;
+    /* z-index: 1000; */
+    box-shadow: 0;
+}
+nav a{
+    margin-right: 1.5rem;
+}
+.logo{
+    margin: 0.5rem;
+}
+header .logo{
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}
+.header .nav-bar a{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+.header .nav-bar a:hover{
+    color:#d0b17ed1;
+}
+.header #toggler{
+    display: none;
+}
+.header .fa-bars{
+    font-size: 1.5rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background: url() no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+}
+@media (max-width:768px){
+    .header .fa-bars{
+        display: block;
+    }
+    .header .nav-bar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: 1rem solid rgba(0,0,0,1);
+        clip-path: polygon(0 0,100% 0,0 0);
+    }
+    .header #toggler:checked ~ .nav-bar{
+        clip-path: polygon(0 0,100% 0,100% 0,0% 100%);
+    }
+    .header .nav-bar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: 1rem solid rgba(0,0,0,1);
+        display: block;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}

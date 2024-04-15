@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quiz</title>
+    <link rel="stylesheet" href="q1.css">
+</head>
+<body>
+    <header>
+        <h6 id="timerelement"></h6>
+               <img src="" alt=""> 
+               <h1>Oyin's quiz</h1>   
+               <span><i class='bx bxs-bulb' style='color:#ffffff'  ></i></span> 
+               <h4 id="count"></h4>
+     </header>
+        <div id="quiz-container">
+            <div class="questions"  > 
+                <h2 id="question"> </h2>
+             <ol type="A">
+                   <li class="option" ><span class="option0"onclick="calculateScore(this)"></span></li>
+                   <li class="option"><span class="option1" onclick="calculateScore(this)"></span></li>
+                   <li class="option"><span class="option2" onclick="calculateScore(this)"></span></li>
+                   <li class="option"><span class="option3" onclick="calculateScore(this)"></span></li>
+             </ol>
+                <h4 id="stat"></h4>
+            </div>
+            <div class="buttons">
+                <button type="button" id="previous" >previous</button>
+                <button type="button" id="next" >Next</button>
+               
+            </div>
+                 
+        </div>
+     
+       <div id="scoreboard">
+         <h2>Your Score</h2>
+         <h2 id="score">0/5</h2>
+         <button class="btn" type="button" id="scoreBtn" onclick="backToQuiz">Back to quiz</button>
+         <button class="btn" type="button" id="check-answer">check answer</button>
+    
+       </div>
+      <div id="answerSheet">
+         <h2>Answer</h2>
+         <ol type="1" id="answerBoard">
+         
+         
+    
+         </ol>
+         <button class="btn" type="button" id="scoreBtn" onclick="backToQuiz">Back to quiz</button>
+      </div>
+
+    <script src="q1.js"></script>
+</body>
+</html>

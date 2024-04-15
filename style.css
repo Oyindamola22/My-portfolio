@@ -1,0 +1,125 @@
+/*
+p{
+    color: red;
+    font-size: larger;
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: dotted;
+    text
+}
+/* text styling */
+/*
+body{
+    background-color: aqua;
+}
+.pam{
+    color: blue;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}*/
+
+
+/*
+#gallery{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    background-image: url(./asset/2023_11_30_18_50_IMG_3485\ -\ Copy\ -\ Copy.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/*
+.section-2{
+    height: 1000px;
+}
+.section-2 img{
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.box{
+   height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   /* border-style: solid;
+    border-width: 5px; 
+    border: 5px;
+    border-color: aqua; 
+    border-radius: 100%; */
+
+    /*another method
+    border: 5px solid aqua; */
+   border: 5px solid aqua;
+   margin: 20px;
+  /*  border-radius: 100%;  this is to create a a circle*/
+  /*  border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem; */
+}
+.fa-heart-pulse{
+    color: red;
+    width: 200px;
+    height: 200px;
+}
+.inner-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: pink;
+    margin: 1rem;
+}
+
+.box2{
+    border: 5px solid red;
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+    padding: 0 0 0 1rem;
+  /*padding is to space inside a box*/
+  float: right;
+}
+
+form.input{
+    border-color: #fff;
+    border: 5rem;
+    border-bottom: 5px solid red;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

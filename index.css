@@ -1,0 +1,46 @@
+.ball{
+    background-color: red;
+    color: white;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+.ball h2{
+    font-size: 3rem;
+    display: none;
+}
+.div-one{
+    background-color: blue;
+}
+.div-two{
+    background-color: aqua;
+}
+.div-three{
+    background-color: brown;
+}
+
+
+/* media query for tablet */
+@media screen and(max-width: 830px) {
+    .ball{
+        background: rgb(10, 10, 99);
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .div-one{
+        display: none;
+    }   
+    .ball h2{
+        font-size: 1rem;
+        display: block;
+    }
+    
+}
+/* media query for mobile */
+@media screen and (max-width:600px) {
+    .ball{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
